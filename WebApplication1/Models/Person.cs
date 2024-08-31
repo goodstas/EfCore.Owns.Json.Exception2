@@ -14,5 +14,9 @@ namespace WebApplication1.Models
         public bool? IsDeleted { get; set; }
 
         public DateTime? DeletionTime { get; set; }
+
+        public List<Relative> Relatives { get; set; }
+
+        public PrivateInfo MyInfo { get; set; }
     }
 }
